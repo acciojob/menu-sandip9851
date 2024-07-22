@@ -1,12 +1,61 @@
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h1 {
-    color: #27aedb;
+    color: black;
     text-align: center;
     }
     
 
-button{
-    color: #27aedb;
-    text-align: center;
+
+.menuHead{
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+.menuHead button {
+    color:  #C59D5F ;
+    margin: 2rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.menuList{
+    
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.list{
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.image  {
+    width: 30%;
+    height: 100%;
+    border:1px solid red ;
+}
+
+.listHead{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    margin-left: 5px;
+    
+}
+.listHead h3{
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.listDescip p {
+    margin: 5px;
+
 }
