@@ -1,61 +1,80 @@
-#main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-h1 {
-    color: black;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main {
     text-align: center;
-    }
-    
-
-
-.menuHead{
+    padding: 20px;
+  }
+  
+  .categories {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-}
-.menuHead button {
-    color:  #C59D5F ;
-    margin: 2rem;
-    font-size: 2rem;
-    border: none;
-    border-radius: 1rem;
-}
-.menuList{
-    
-    width: 70vw;
-    height: 70vh;
+    margin-bottom: 20px;
+  }
+  
+  .categories li {
+    margin: 0 10px;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    background-color: #f3f3f3;
+  }
+  
+  .categories a.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    
-}
-.list{
-    display: flex;
-    width: 30vw;
-    height: 20vh;
-    border: 2px solid black;
-    margin: 20px;
-}
-
-.image  {
-    width: 30%;
-    height: 100%;
-    border:1px solid red ;
-}
-
-.listHead{
-    display: flex;
     justify-content: center;
-    border-bottom: 2px solid black;
-    margin-left: 5px;
-    
-}
-.listHead h3{
-    margin: 0px 5px 0px 5px;
-    padding: 5px;
-}
-
-.listDescip p {
-    margin: 5px;
-
-}
+  }
+  
+  .list li {
+    background: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .list img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .top h2 {
+    margin: 0;
+  }
+  
+  .top span {
+    color: #c59d5f;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
