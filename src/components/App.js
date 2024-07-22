@@ -103,12 +103,12 @@ function App() {
   
 
   return (
-    <div className="heroSection">
+    <div id="main">
       <h1>Our Menu</h1>
       <div className="menuHead">
-        <button onClick={allButton}>All</button>
-        <button onClick={breakfastBtn}>Breakfast</button>
-        <button onClick={lunchBtn}>Lunch</button>
+        <button id="filter-btn-3" onClick={allButton}>All</button>
+        <button id="filter-btn-1" onClick={breakfastBtn}>Breakfast</button>
+        <button  id="filter-btn-2" onClick={lunchBtn}>Lunch</button>
         <button onClick={shakesBtn}>Sankes</button>
       </div>
 
