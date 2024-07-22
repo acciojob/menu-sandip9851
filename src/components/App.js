@@ -106,10 +106,10 @@ function App() {
     <div id="main">
       <h1>Our Menu</h1>
       <div className="menuHead">
-        <button id="filter-btn-3" onClick={allButton}>All</button>
-        <button id="filter-btn-1" onClick={breakfastBtn}>Breakfast</button>
-        <button  id="filter-btn-2" onClick={lunchBtn}>Lunch</button>
-        <button onClick={shakesBtn}>Sankes</button>
+        <button id="filter-btn-3"  onClick={allButton}>All</button>
+        <button id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={breakfastBtn}>Breakfast</button>
+        <button  id="filter-btn-2" data-test-id="menu-item-lunch" onClick={lunchBtn}>Lunch</button>
+        <button  data-test-id="menu-item-shakes" onClick={shakesBtn}>Sankes</button>
       </div>
 
      
